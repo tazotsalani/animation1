@@ -1,0 +1,19 @@
+@keyframes boxone {
+
+30% { margin-left: 50%;
+}
+
+100% {
+    margin-left: 100%;
+} 
+
+
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    animation-name: boxone;
+    animation-duration: 8s;
+    animation-iteration-count:infinite;
+}
